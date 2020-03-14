@@ -1,0 +1,70 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\1\\RiderProjects\\Binarization\\WebApplication\\WebApplication.csproj",
+    "projectName": "WebApplication",
+    "projectPath": "C:\\Users\\1\\RiderProjects\\Binarization\\WebApplication\\WebApplication.csproj",
+    "outputPath": "C:\\Users\\1\\RiderProjects\\Binarization\\WebApplication\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {
+          "C:\\Users\\1\\RiderProjects\\Binarization\\Domain\\Domain.csproj": {
+            "projectPath": "C:\\Users\\1\\RiderProjects\\Binarization\\Domain\\Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.AspNetCore.Identity.UI": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
+        "SixLabors.ImageSharp": {
+          "target": "Package",
+          "version": "[1.0.0-beta0007, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

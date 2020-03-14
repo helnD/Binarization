@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="main-container">
+  <div class="grid-container">
+        <div class="container source-section section-1">
+            <h2>Источник</h2>
+            <form id="image_form" method="POST">
+                <p>Загрузите изображение</p>
+                <input id="source_image" type="file" name="image_input" value="Загрузить" accept="image/jpeg,image/png">
+                <img id="loaded_img" class="">
+            </form>
+            <span id="output"></span>
+        </div>
+        <div class="container settings-section section-2">
+            <h2>Настройка</h2>
+            <div id="graphs" class="graphs">
+            </div>
+            <div class="calc_btns">
+                <input id="calc_btn" type="button" value="Преобразовать">
+                <input id="calc_btn_auto" type="button" value="Преобразовать методом Оцу">
+            </div>
+        </div>
+      <div class="container result-section section-3">
+          <h2>Результат</h2>
+          <br>
+          <br>
+          <br>
+          <img id="result_img" class="">
+      </div>
+      </div>
+</div>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="../js/otsu.js" type="module"></script>
+    <script src="../js/script.js"></script>

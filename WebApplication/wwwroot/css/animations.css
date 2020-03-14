@@ -1,0 +1,29 @@
+@-webkit-keyframes smoothAppearance {
+  0% {
+    width: 0; }
+  100% {
+    width: 50px; } }
+
+@keyframes smoothAppearance {
+  0% {
+    width: 0; }
+  100% {
+    width: 50px; } }
+
+@-webkit-keyframes smoothDisappearance {
+  0% {
+    width: 50px; }
+  100% {
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: none; } }
+
+@keyframes smoothDisappearance {
+  0% {
+    width: 50px; }
+  100% {
+    width: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: none; } }
