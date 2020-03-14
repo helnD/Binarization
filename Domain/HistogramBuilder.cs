@@ -28,6 +28,12 @@ namespace Domain
             return new Histogram(result);
         }
 
+        public HistogramBuilder Color(ColorSpectrum spectrum)
+        {
+            _spectrum = spectrum;
+            return this;
+        }
+
         private int Spectrum([NotNull]Color color)
         {
             int result;

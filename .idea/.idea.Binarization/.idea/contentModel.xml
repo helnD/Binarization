@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\1\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -25,6 +25,80 @@
         <e p="Threshold.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="WebApplication" t="IncludeRecursive">
+        <e p="Adapters" t="Include">
+          <e p="AdaptedEntities" t="Include">
+            <e p="AdaptedThresholds.cs" t="Include" />
+          </e>
+          <e p="IAdapter.cs" t="Include" />
+          <e p="InputAdapter" t="Include">
+            <e p="IdAdapter.cs" t="Include" />
+            <e p="ImageAdapter.cs" t="Include" />
+            <e p="ThresholdAdapter.cs" t="Include" />
+          </e>
+          <e p="OutputAdapter" t="Include">
+            <e p="HistogramAdapter.cs" t="Include" />
+            <e p="ImageAdapter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Identity" t="Include">
+            <e p="Pages" t="Include">
+              <e p="_ViewStart.cshtml" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="ImageAccountService" t="Include">
+          <e p="ImageAccount.cs" t="Include" />
+          <e p="ImageInfo.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="WebApplication.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="WebApplication.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="animations.css" t="Include" />
+            <e p="styles-dist.css" t="Include" />
+            <e p="styles.css" t="Include" />
+            <e p="urls.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="img" t="Include">
+            <e p="add.png" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="otsu.js" t="Include" />
+            <e p="qScript.js" t="Include" />
+            <e p="script.js" t="Include" />
+          </e>
+        </e>
+      </e>
     </e>
   </component>
 </project>
